@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -22,7 +22,7 @@ public class Takki : MonoBehaviour
             if (!(rememberMe.StigGull == 30)) {
 
                 
-                if (rememberMe.Life == 0)
+                if (rememberMe.Life <= 0)
                 {
                     textin.text = textin.text + " óvinir drápu þig ";
                 }
